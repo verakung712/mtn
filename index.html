@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mountain climbing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-wrapper">
+        
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Mountain Climbing</h2>
+                <p>2025 - 2026</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#intro" class="nav-link active" data-index="0">Cover</a>
+                <a href="#pre-climb" class="nav-link" data-index="1">Pre-Climb Training</a>
+                <a href="#stop1" class="nav-link" data-index="2">01. 銀河洞越嶺</a>
+                <a href="#stop2" class="nav-link" data-index="3">02. 七星山</a>
+                <a href="#stop3" class="nav-link" data-index="4">03. 大崙頭尾山</a>
+                <a href="#final-peak" class="nav-link" data-index="5">04. The Final Peak-雪山</a>
+                <a href="#lessons" class="nav-link" data-index="6">05. 山教會我的三件事</a>
+                <a href="#memories" class="nav-link" data-index="7">Memories from G9-G11</a>
+            </nav>
+        </aside>
+
+        <div class="floating-controls">
+            <button id="global-prev" class="control-btn">Prev</button>
+            <button id="global-next" class="control-btn">Next</button>
+        </div>
+
+        <main class="slider-container">
+
+            <section id="intro" class="slide active" data-index="0">
+                <div class="slide__layer bg-layer" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('images/sunrise.jpeg');"></div>
+                <div class="slide__layer content-layer">
+                    <div class="intro-content">
+                        <h1>山的禮物，我的感動</h1>
+                        <p>1104 13 龔玟薰 Vera Kung</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pre-climb" class="slide" data-index="1">
+                <div class="slide__layer bg-layer bg-white"></div>
+                <div class="slide__layer content-layer">
+                    <div class="stop-container">
+                        <div class="text-side">
+                            <h2>Prep</h2>
+                            <h3></h3>
+                            <p class="reflection">
+                                爬山，在一年前，是我其中最不可行的運動之一。每爬一層階梯，我想爬回登山口的念頭越大。<br>在沒有任何長期的心肺訓練下，有先天性氣喘的我慢慢的發現自己的弱項。
+
+
+                            </p>
+                        </div>
+                        <div class="mini-book">
+                            <div class="book-pages">
+                                <div class="book-page active">
+                                    <img src="images/1.jpg" alt="Friends hiking">
+                                    <p class="caption">為了跟上大家的體力，跟朋友一起去爬金面山</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/2.JPG" alt="Dense forest">
+                                    <p class="caption">爬山前還看起來很有精神</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/3.JPG" alt="Dense forest">
+                                    <p class="caption">下山就累倒</p>
+                                </div>
+                                
+                            </div>
+                            <button class="flip-btn" onclick="flipBook(this)">Next Photo →</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="stop1" class="slide" data-index="2">
+    <div class="slide__layer bg-layer bg-white"></div>
+    <div class="slide__layer content-layer">
+        <div class="stop-container">
+            <div class="text-side">
+                <h2>01. 銀河洞越嶺</h2>
+                <h3></h3>
+                <p class="reflection">
+                    第一次正式爬山，又興奮又期待，帶了很多超重但又不合格的衣服和食物，讓我發現，不僅體力，原來裝備上也還沒準備好...那次是我們第一次以小隊出發，雖然還沒學到隊伍每個人的角色，但大概了解到小隊裡每個人的體力和身體狀況。
+                </p>
+            </div>
+            <div class="mini-book">
+                <div class="book-pages">
+                    <div class="book-page active">
+                        <img src="images/4.jpg" alt="Trailhead">
+                        <p class="caption">第一次爬山就遇到下雨天...</p>
+                    </div>
+                    <div class="book-page">
+                        <img src="images/5.jpg" alt="Campfire">
+                        <p class="caption">帶了好多東西，但不知道有沒有合格。</p>
+                    </div>
+                    <div class="book-page">
+                        <img src="images/6.jpeg" alt="Trailhead">
+                        <p class="caption">出發前，調整好背包、學會用登山杖，大冠鷲喀擦!</p>
+                    </div>
+                    <div class="book-page">
+                        <img src="images/7.JPEG" alt="Trailhead">
+                        <p class="caption">測試雨衣，只不過七星山的風雨比這個瀑布更大...</p>
+                    </div>
+                    <div class="book-page">
+                        <img src="images/8.jpeg" alt="Trailhead">
+                        <p class="caption">終於到了!!!大家都濕透了</p>
+                    </div>
+                    <div class="book-page">
+                        <img src="images/9.png" alt="Trailhead">
+                        <p class="caption">我們在纜車上面一直笑但是又餓又累</p>
+                    </div>
+                </div>
+                <button class="flip-btn" onclick="flipBook(this)">Next Photo →</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <section id="stop2" class="slide" data-index="3">
+                <div class="slide__layer bg-layer bg-white"></div>
+                <div class="slide__layer content-layer">
+                    <div class="stop-container">
+                        <div class="text-side">
+                            <h2>02. 七星山</h2>
+                            <h3></h3>
+                            <p class="reflection">
+                                出發的前一天，我們還在班上討論:七星山還好啦，很短一下子就到了。
+沒想到，又是一次雨天爬山。回程時，風到大我們整隊需要停下來，抓好時機再繼續往前，一不小心就會站不穩。那時也讓我們開始擔心會不會答雪山也這樣。
+
+                            </p>
+                        </div>
+                        <div class="mini-book">
+                            <div class="book-pages">
+                                <div class="book-page active">
+                                    <img src="images/10.JPG" alt="Rocky path">
+                                    <p class="caption">風大到嘴巴張不開</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/11.JPG" alt="Mountain stars">
+                                    <p class="caption">阿嬤在祈禱不要再下雨了!</p>
+                                </div>
+                            </div>
+                            <button class="flip-btn" onclick="flipBook(this)">Next Photo →</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="stop3" class="slide" data-index="4">
+                <div class="slide__layer bg-layer bg-white"></div>
+                <div class="slide__layer content-layer">
+                    <div class="stop-container">
+                        <div class="text-side">
+                            <h2>03. 大崙頭尾山</h2>
+                            <h3></h3>
+                            <p class="reflection">
+                                這一次，我慢慢的能開始自己調整跟適應呼吸的速度，感覺跟第一次比起來，我又更往前了一大步。我開始不會一開始就沒有體力，下山之後也感覺輕鬆多了。或許是路徑的不同，但我對爬山的掌握度有高了一些。
+
+                            </p>
+                        </div>
+                        <div class="mini-book">
+                            <div class="book-pages">
+                                <div class="book-page active">
+                                    <img src="images/12.JPG" alt="Foggy ridge">
+                                    <p class="caption">第二次來大崙頭尾山，熟悉又陌生的路</p>
+                                </div>
+                            </div>
+                            <button class="flip-btn" onclick="flipBook(this)">Next Photo →</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="final-peak" class="slide" data-index="5">
+                <div class="slide__layer bg-layer" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/peak.jpg');"></div>
+                <div class="slide__layer content-layer">
+                    <div class="stop-container text-white">
+                        <div class="text-side">
+                            <h2 class="light-text">04. The Final Peak-雪山</h2>
+                            <h3 class="white-text"></h3>
+                            <p class="reflection white-text">
+                                凌晨3.我們從九九山莊出發，下午4.回來。<br>
+現在想想，我很難相信我能夠做到，哭坡、東峰，和最後的黑森林。在低壓的高山，身體更是容易累。一開始的2-4K是我覺得最煎熬的，沒有盡頭的S字型上坡加上在凌晨摸黑，讓我覺得很絕望。但抬頭看，其實並沒有這麼可怕，因為我看的是更多人跟我爬著一樣的路，一起停下來休息、調整身體適應上升的高度;我聽到的是從後面傳來的「加油!」「3.6k了」。到最後，為了趕上日出，我們沿路都在緊盯著那顆快要探頭的太陽，忘了我們走得有多累多喘。
+
+                            </p>
+                        </div>
+                        <div class="mini-book transparent-book">
+                            <div class="book-pages">
+                                <div class="book-page active">
+                                    <img src="images/13.jpeg" alt="Summit sunrise">
+                                    <p class="caption white-text">WE MADE IT!!!✨✨✨</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/14.jpeg" alt="Group on peak">
+                                    <p class="caption white-text">路再遠我們再累，我們在路上說笑話玩遊戲讓大家振作</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/15.jpeg" alt="Summit sunrise">
+                                    <p class="caption white-text">有一點像Grand Canyon</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/16.jpeg" alt="Summit sunrise">
+                                    <p class="caption white-text">壯觀的山景</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/17.jpeg" alt="Summit sunrise">
+                                    <p class="caption white-text">趕到日出!</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/19.jpg" alt="Summit sunrise">
+                                    <p class="caption white-text">solo hiking!讓我真的靜下來感受這個山林</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/20.jpeg" alt="Summit sunrise">
+                                    <p class="caption white-text">他們是最大的靠山</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/stars.jpeg" alt="Summit sunrise">
+                                    <p class="caption white-text">在沒有燈的干擾下，這是我低一次抬起頭看到這麼多星星</p>
+                                </div>
+                            </div>
+                            <button class="flip-btn white-btn" onclick="flipBook(this)">Next Photo →</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="lessons" class="slide" data-index="6">
+                <div class="slide__layer bg-layer bg-white"></div>
+                <div class="slide__layer content-layer">
+                    <div class="stop-container">
+                        <div class="text-side">
+                            <h2>山，教我的三件事</h2>
+                            <h3></h3>
+                            <p class="reflection">
+                                1. 準備比過程還重要<br>從一開始在文山農場老師講每個裝備的細節到雪山出發前檢查裝備，改變了我很多。一開始的我只是覺得多帶少帶其實沒關係，沒想到第一次銀河洞就讓我上了一課、也讓我知道準備好的重要性。在體力方面，如果沒有前幾次的爬山訓練和呼吸調整，我可能沒有辦法這麼有力氣得爬上雪山。任何事情不可能踏了一步就登頂，而是經過一步一步慢慢累積，到達最終的目標。<br>2.感動<br>邁入每一座山，其實都給了我不同的啟發。在雪山的凌晨，我問了自己「如果沒有上來，我是不是就看不到眼前的風景」;第二天晚上寫完信之後在外面，頭仰望天空。就這樣，我看了整整30分鐘，一直思考上面的天空到底是什麼樣子、星星在那裡一樣會這麼閃爍嗎? 
+原來這就是被大自然震撼、感動的感覺。<br>3.靠山<br>在這個路途當中，讓我能夠堅持12小時爬山的是我們隊的隊員還有大冠鷲。在山莊，我們一起吃早餐跟晚餐、講笑話、一起看星星;在爬山的時候，我們互相鼓勵支持，隨時照顧別人的身體狀況、交換行動糧吃，更重要的是我們一起協調、分析整隊的體力跟配速還有做決策讓最後爬到黑森林很順利也很開心。這讓我發現，原來朋友是如此重要，他們不僅和我一起完成這個山，更像是一座靠山跟我一起經歷最累、最開心的時候也彼此關心，這份回憶真的很難忘。
+
+                            </p>
+                        </div>
+                        <div class="mini-book">
+                            <div class="book-pages">
+                                <div class="book-page active">
+                                    <img src="images/frds.jpeg" alt="Looking at map">
+                                    <p class="caption">摸黑出發，後面的人照亮前面的路</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/yay.jpeg" alt="Team high five">
+                                    <p class="caption">跟你扣一起爬山沒有一秒是不在笑的</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/lov.jpeg" alt="Team high five">
+                                    <p class="caption">智一一起看日出!</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/luv.jpeg" alt="Team high five">
+                                    <p class="caption">最大的後背</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/med.jpeg" alt="Team high five">
+                                    <p class="caption">考完期中考馬上吃高山症藥!</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/shrimp.jpg" alt="Team high five">
+                                    <p class="caption">幫大家剝蝦!</p>
+                                </div>
+                            </div>
+                            <button class="flip-btn" onclick="flipBook(this)">Next Photo →</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="memories" class="slide" data-index="7">
+                <div class="slide__layer bg-layer bg-journal"></div>
+                <div class="slide__layer content-layer">
+                    <div class="stop-container">
+                        <div class="text-side">
+                            <h2>Looking Back</h2>
+                            <h3>Full of memories...✨</h3>
+                            <p class="reflection">
+                                從9直一直到爬山，跟我們班還有探索老師一起上山下海...
+
+                        </div>
+                        <div class="mini-book">
+                            <div class="book-pages">
+                                <div class="book-page active">
+                                    <img src="images/IMG_4609.PNG" alt="Notebook and desk">
+                                    <p class="caption">山道猴子隊!</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/monkey.jpg" alt="Classroom memories">
+                                    <p class="caption">九直鐵三角(阿嬤還有猴子!)</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/three.JPG" alt="Classroom memories">
+                                    <p class="caption">這次學怎麼殺魚!</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/boat.jpeg" alt="Classroom memories">
+                                    <p class="caption">跟你扣上獨木舟前5分鐘還可以衝刺</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/yo.jpg" alt="Classroom memories">
+                                    <p class="caption">園遊會跟tino跟猴子</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/sea.jpeg" alt="Classroom memories">
+                                    <p class="caption">很喜歡獨木舟，但真的太暈了</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/all.JPG" alt="Classroom memories">
+                                    <p class="caption">之後沒有探索課了...</p>
+                                </div>
+                                <div class="book-page">
+                                    <img src="images/us.jpeg" alt="Classroom memories">
+                                    <p class="caption">18, but 16</p>
+                                </div>
+                            </div>
+                            <button class="flip-btn" onclick="flipBook(this)">Next Photo →</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
